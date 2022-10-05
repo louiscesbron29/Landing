@@ -4,7 +4,6 @@
 body{
   font-family: Overpass;
   color: #404042;
-  font-size: 18px;
   margin: 0;
 }
 
@@ -28,8 +27,8 @@ p{
 	}
 
 .banner{
-	height: 434px;
-	background-image: url("images/background.jpg");
+	height: 100px;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://img-4.linternaute.com/H-HQ5RB-WQtycXGSKtIruBB10Rk=/1500x/smart/856a2539cbdf4ddbacb366b7ddeb8764/ccmcms-linternaute/33461533.jpg");
 	background-size: cover; 
 	background-position: center;
 	text-align: center;
@@ -50,26 +49,57 @@ p{
 .btn_blue{
 	height:36px; 
 	width:100px;
-	background-color:blue;
+	background-color: royalblue;
 	padding:16px 48px;
 	border-radius: 5px;
-	text-align: center;`
+	text-align: center;
 	display: inline-block;
-	background-position: center;
-	position: center;
+	transition: 3s;
+	text-decoration: none;
+	margin: auto;
 }
+
+.Placement_cartes {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	justify-items: center;
+}
+
+
 .Campus_Card {
-	height: 300px;
+	height: 400px;
 	width: 200px;
 	border: 1px whitesmoke;
 	border-radius: 4px;
-	margin: 8px;
+	margin: 0px 0px 50px 0px;
 	text-align: center;
 	background: white;
 	padding: 24px;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }	
 
+.btn_black {
+	height: 18px;
+	width: 30px;
+	background-color: black;
+	padding: 16px 48px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 100px 0px 0px 0px
+	}	
+
 .Sous_Titre {
 	text-align: center;
 }
+
+.footer {
+	height: 50px;
+	width: 1440px;
+	background-color: royalblue;
+	text-align: center;
+	padding: 24px 0px;
+}
+
+.footer p {
+	color: white;
